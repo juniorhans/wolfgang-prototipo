@@ -187,7 +187,7 @@ export default function Home() {
 
         <Swiper
           spaceBetween={10}
-          slidesPerView={1.1}
+          slidesPerView={1.0}
           grabCursor={true}
         >
 
@@ -470,7 +470,7 @@ export default function Home() {
 
           <Image
             src="/images/banner-oversized2.png"
-            alt="Oversizeds"
+            alt="Oversized"
             fill
             className="object-cover"
           />
@@ -480,7 +480,7 @@ export default function Home() {
           <div className="absolute bottom-6 left-5">
 
             <h3 className="text-white text-2xl font-semibold">
-              Oversizeds
+              Oversized
             </h3>
 
             <p className="text-white/90 mt-2 text-sm">
