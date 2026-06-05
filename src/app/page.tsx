@@ -25,19 +25,22 @@ export default function Home() {
 
       <header className="sticky top-0 z-50 bg-black/90 backdrop-blur border-b border-zinc-800">
 
-        <div className="h-14 flex items-center justify-between px-4">
+        <div className="relative h-14 flex items-center justify-between px-4">
 
           <button onClick={() => setMenuAberto(true)}>
             <Menu size={24} />
           </button>
 
-          <Image
-            src="/images/logo.png"
-            alt="Wolfgang"
-            width={40}
-            height={50}
-            className="ml-auto mr-28"
-          />
+<div className="absolute left-1/2 -translate-x-1/2">
+
+  <Image
+    src="/images/logo.png"
+    alt="Wolfgang"
+    width={40}
+    height={50}
+  />
+
+</div>
 
           <div className="flex items-center gap-4">
 
