@@ -204,6 +204,7 @@ export default function Home() {
                 alt="Produto"
                 width={1000}
                 height={1000}
+                  priority
                 className="w-full aspect-[0.9] object-cover"
               />
               <div className="absolute top-3 left-3 bg-black text-white text-xs px-2 py-1">
@@ -270,6 +271,7 @@ export default function Home() {
                 alt="Produto"
                 width={1000}
                 height={1000}
+                  priority
                 className="w-full aspect-[0.9] object-cover"
               />
 
@@ -339,6 +341,7 @@ export default function Home() {
                 alt="Produto"
                 width={1000}
                 height={1000}
+                  priority
                 className="w-full aspect-[0.9] object-cover"
               />
 
