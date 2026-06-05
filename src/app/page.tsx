@@ -187,7 +187,7 @@ export default function Home() {
 
         <Swiper
           spaceBetween={10}
-          slidesPerView={1.0}
+          slidesPerView={1.1}
           grabCursor={true}
         >
 
