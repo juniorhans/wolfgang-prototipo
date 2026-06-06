@@ -6,6 +6,7 @@ import { Menu, Search, ShoppingBag } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+import SiteShell from "@/components/SiteShell";
 
 export default function Home() {
   const [antiVerso, setAntiVerso] = useState(false);
@@ -13,6 +14,7 @@ export default function Home() {
   const [traumaVerso, setTraumaVerso] = useState(false);
   const [menuAberto, setMenuAberto] = useState(false);
   return (
+
     <main className="min-h-screen bg-zinc-950 text-white">
 
       {/* Barra superior */}
@@ -248,9 +250,12 @@ export default function Home() {
                   </span>
 
                 </p>
-                <button className="w-full mt-4 bg-black text-white py-3 font-semibold uppercase tracking-wide">
-                  Comprar
-                </button>
+<a
+  href="/produto"
+  className="block w-full mt-4 bg-black text-white py-3 text-center"
+>
+  Ver Produto
+</a>
 
               </div>
 
@@ -669,5 +674,6 @@ export default function Home() {
 
 
     </main>
+ 
   );
 }
